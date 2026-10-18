@@ -1,0 +1,38 @@
+syntax = "proto3";
+package   fixbug;
+//结果代码
+message ResultCode
+{
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+//登录请求
+message LoginResquest
+{
+    bytes name = 1;
+    bytes pwd = 2;
+}
+//登录回应
+message LoginResponse
+{
+    ResultCode result = 1;
+    bool success = 2;
+}
+//用户
+message User
+{
+    bytes name = 1;
+    uint32 age = 2;
+    enum Sex
+    {
+        MAN = 0;
+        WOMAN = 1;
+    }
+    Sex sex = 3;
+}
+//get好友列表回应
+message GetFriendListResponse
+{
+    ResultCode result = 1;
+    repeated User friend_list = 2;
+}
