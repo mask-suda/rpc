@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/gf/mprpc/src/mprpcapplication.cc",
+  "file": "/home/gf/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/gf/mprpc/src/mprpcconfig.cc",
+  "file": "/home/gf/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcheader.pb.cc.o -c /home/gf/mprpc/src/mprpcheader.pb.cc",
+  "file": "/home/gf/mprpc/src/mprpcheader.pb.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcprovider.cc.o -c /home/gf/mprpc/src/mprpcprovider.cc",
+  "file": "/home/gf/mprpc/src/mprpcprovider.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/gf/mprpc/src/mprpcchannel.cc",
+  "file": "/home/gf/mprpc/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/nettcpbuffer.cc.o -c /home/gf/mprpc/src/nettcpbuffer.cc",
+  "file": "/home/gf/mprpc/src/nettcpbuffer.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/gf/mprpc/src/mprpccontroller.cc",
+  "file": "/home/gf/mprpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/gf/mprpc/src/logger.cc",
+  "file": "/home/gf/mprpc/src/logger.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/src",
+  "command": "/usr/bin/c++  -DTHREADED -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/gf/mprpc/src/zookeeperutil.cc",
+  "file": "/home/gf/mprpc/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/example/callee",
+  "command": "/usr/bin/c++   -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/gf/mprpc/example/callee/friendservice.cc",
+  "file": "/home/gf/mprpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/example/callee",
+  "command": "/usr/bin/c++   -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/gf/mprpc/example/friend.pb.cc",
+  "file": "/home/gf/mprpc/example/friend.pb.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/example/caller",
+  "command": "/usr/bin/c++   -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/gf/mprpc/example/caller/callfriendservice.cc",
+  "file": "/home/gf/mprpc/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/gf/mprpc/build/example/caller",
+  "command": "/usr/bin/c++   -I/home/gf/mprpc/src/include -I/usr/local/zookeeper/include -I/home/gf/mprpc/example  -g   -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/gf/mprpc/example/friend.pb.cc",
+  "file": "/home/gf/mprpc/example/friend.pb.cc"
+}
+]

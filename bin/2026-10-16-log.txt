@@ -1,0 +1,12 @@
+12:7:36 => first log message!12:7:36 => /home/gf/mprpc/example/callee/friendservice.cc:main:4312:11:47 => first log message!
+
+12:11:47 => /home/gf/mprpc/example/callee/friendservice.cc:main:43
+12:12:44 => first log message!
+
+12:12:44 => /home/gf/mprpc/example/callee/friendservice.cc:main:43
+12:13:32 => first log message!
+12:13:32 => /home/gf/mprpc/example/callee/friendservice.cc:main:43
+12:19:44 =>[info] first log message!
+12:19:44 =>[info] /home/gf/mprpc/example/callee/friendservice.cc:main:43
+12:19:44 =>[info] service_name:FriendServiceRpc
+12:19:44 =>[info] method_name:GetFriendList
